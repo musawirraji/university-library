@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61bafd99-dcd8-42db-b2f2-34c229861135" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(root)/books/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/books/new/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/books/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/admin/ColorPicker.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/admin/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/admin/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/admin/forms/BookForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seed.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dummybooks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/admin/actions/book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/workflow.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/workflow.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AuthForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BookCover.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BookCover.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BookList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BookList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ImageUpload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FileUpload.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/validation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/validation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/meta/_journal.json" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/meta/_journal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,28 +64,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/obanla/Desktop/university-library/node_modules/eslint&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/obanla/Desktop/university-library/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.JavaScript&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/obanla/Desktop/university-library/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "/Users/obanla/Desktop/university-library/node_modules/eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/obanla/Desktop/university-library/node_modules/prettier",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.JavaScript",
+    "ts.external.directory.path": "/Users/obanla/Desktop/university-library/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/admin/books" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/database" />
@@ -91,7 +117,13 @@
       <workItem from="1737203139282" duration="1476000" />
       <workItem from="1737211552168" duration="23521000" />
       <workItem from="1737458478976" duration="589000" />
-      <workItem from="1737459749041" duration="5102000" />
+      <workItem from="1737459749041" duration="15656000" />
+      <workItem from="1737535729037" duration="5228000" />
+      <workItem from="1737670470185" duration="4886000" />
+      <workItem from="1737715623096" duration="3017000" />
+      <workItem from="1737722980338" duration="1660000" />
+      <workItem from="1737726521551" duration="4011000" />
+      <workItem from="1737754498747" duration="12688000" />
     </task>
     <servers />
   </component>
